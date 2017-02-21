@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: github-exp
+  host: github-exp
+  disk_quota: 1024M
+  services:
+  - github-exp-cloudantNoSQLDB
+  - github-exp-iotf-service
